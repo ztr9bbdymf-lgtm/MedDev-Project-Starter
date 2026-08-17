@@ -75,6 +75,29 @@ The repository-level folders are documentation-management areas for the template
 
 ## Quick Start
 
+### First-time example
+
+Open PowerShell and enter the repository directory:
+
+```powershell
+cd D:\GitHub\MedDev-Project-Starter
+py meddev_starter.py
+```
+
+When prompted, enter an example project name:
+
+```text
+胃肠道发光定位装置
+```
+
+After a successful run, the program reports the created project path, for example:
+
+```text
+项目创建成功：D:\GitHub\MedDev-Project-Starter\胃肠道发光定位装置
+```
+
+The new project folder contains the eight standard R&D directories and a `README.md` file.
+
 Open PowerShell in the directory where you want to create a project, then run:
 
 ```powershell
